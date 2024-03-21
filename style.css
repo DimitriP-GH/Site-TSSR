@@ -1,0 +1,49 @@
+body {
+    font-family: Calibri;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: 181a1b;
+}
+
+header {
+    background-color: #181a1b;
+    color: #8200ec;
+    text-align: center;
+    padding: 1em 0; 
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: 181a1b;
+}
+
+nav ul li {
+    background-color: 181a1b;
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    background-color: 181a1b;
+    text-decoration: none;
+}
+
+.main-content {
+    margin: 20px;
+    padding: 20px;
+    color: white;
+    background-color: #181a1b;
+}
+
+footer {
+    background-color: #181a1b;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
