@@ -1,8 +1,8 @@
 <?php
 $identifiant = $_POST['identifiant'];
-$Motdepasse = $_POST['motdepasse'];
+$motdepasse = $_POST['motdepasse'];
 
-if ($identifiant == 'admin' && $Motdepasse == 'password') {
+if ($identifiant == 'admin' && $motdepasse == 'motdepasse') {
     echo 'Connexion réussie !';
 } else {
     echo 'Connexion échouée !';
