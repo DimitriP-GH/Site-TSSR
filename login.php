@@ -3,8 +3,8 @@ $identifiant = $_POST['identifiant'];
 $motdepasse = $_POST['motdepasse'];
 
 if ($identifiant == 'admin' && $motdepasse == 'motdepasse') {
-    echo 'Connexion réussie !';
+    echo '<p class="success-message">Connexion réussie !</p>';
 } else {
-    echo 'Connexion échouée !';
+    echo '<p class="error-message">Connexion échouée !</p>';
 }
 ?>
