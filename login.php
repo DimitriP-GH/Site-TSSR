@@ -25,11 +25,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <h2>Se connecter</h2>
     <div class="input-group">
             <label for="Identifiant">Identifiant: </label>
-            <input type="text" id="Identifiant" name="Identifiant" required>
+            <input type="text" id="identifiant" name="identifiant" required>
     </div>
     <div class="input-group">
             <label for="Mot de passe">Mot de passe:</label>
-            <input type="Mot de passe" id="Mot de passe" name="Mot de passe" required>
+            <input type="password" id="motdepasse" name="motdepasse" required>
     </div>
     <button type="submit">Se connecter</button>
 </form>
